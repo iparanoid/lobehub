@@ -1,8 +1,8 @@
 'use client';
 
-import { ActionIcon, DropdownMenu } from '@lobehub/ui';
+import { ActionIcon, DropdownMenu, Empty } from '@lobehub/ui';
 import { BotIcon, MoreHorizontal, UsersIcon } from 'lucide-react';
-import { Suspense, memo } from 'react';
+import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 
@@ -27,17 +27,17 @@ const CommunityRecommend = memo<CommunityRecommendProps>(({ mode }) => {
 
   const isGroupMode = mode === 'group';
 
-  // Fetch data to check if list is empty
+  // Fetch data to check loading and empty state
   const useAssistantList = useDiscoverStore((s) => s.useAssistantList);
   const useGroupAgentList = useDiscoverStore((s) => s.useGroupAgentList);
 
   const category = mode === 'write' ? AssistantCategory.CopyWriting : undefined;
 
-  const { data: assistantList } = useAssistantList(
-    !isGroupMode ? { category, page: 1, pageSize: 12 } : undefined,
+  const { data: assistantList, isLoading: isAssistantLoading } = useAssistantList(
+    !isGroupMode ? { category, page: 1, pageSize: 10 } : undefined,
   );
-  const { data: groupList } = useGroupAgentList(
-    isGroupMode ? { page: 1, pageSize: 12 } : undefined,
+  const { data: groupList, isLoading: isGroupLoading } = useGroupAgentList(
+    isGroupMode ? { page: 1, pageSize: 10 } : undefined,
   );
 
   // Don't render if mode is invalid
@@ -45,14 +45,10 @@ const CommunityRecommend = memo<CommunityRecommendProps>(({ mode }) => {
     return null;
   }
 
-  // Don't render if list is empty
+  const isLoading = isGroupMode ? isGroupLoading : isAssistantLoading;
   const hasData = isGroupMode
     ? groupList && groupList.items.length > 0
     : assistantList && assistantList.items.length > 0;
-
-  if (!hasData) {
-    return null;
-  }
 
   const getTitle = () => {
     switch (mode) {
@@ -88,6 +84,29 @@ const CommunityRecommend = memo<CommunityRecommendProps>(({ mode }) => {
     }
   };
 
+  const renderContent = () => {
+    if (isLoading) {
+      return (
+        <GroupSkeleton
+          height={RECENT_BLOCK_SIZE.AGENT.HEIGHT}
+          width={RECENT_BLOCK_SIZE.AGENT.WIDTH}
+        />
+      );
+    }
+
+    if (!hasData) {
+      return (
+        <Empty
+          description={t('home.recommendEmpty')}
+          icon={isGroupMode ? UsersIcon : BotIcon}
+          style={{ padding: '24px 0' }}
+        />
+      );
+    }
+
+    return isGroupMode ? <GroupList /> : <AssistantList mode={mode} />;
+  };
+
   return (
     <GroupBlock
       action={
@@ -108,18 +127,7 @@ const CommunityRecommend = memo<CommunityRecommendProps>(({ mode }) => {
       icon={isGroupMode ? UsersIcon : BotIcon}
       title={getTitle()}
     >
-      <ScrollShadowWithButton>
-        <Suspense
-          fallback={
-            <GroupSkeleton
-              height={RECENT_BLOCK_SIZE.AGENT.HEIGHT}
-              width={RECENT_BLOCK_SIZE.AGENT.WIDTH}
-            />
-          }
-        >
-          {isGroupMode ? <GroupList /> : <AssistantList mode={mode} />}
-        </Suspense>
-      </ScrollShadowWithButton>
+      <ScrollShadowWithButton>{renderContent()}</ScrollShadowWithButton>
     </GroupBlock>
   );
 });

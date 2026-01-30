@@ -187,6 +187,8 @@ export default {
 
   'home.recommendAgents': 'Recommended Agents',
 
+  'home.recommendEmpty': 'No recommendations available',
+
   'home.recommendGroups': 'Recommended Groups',
 
   'home.recommendWritingAgents': 'Writing Agents',
