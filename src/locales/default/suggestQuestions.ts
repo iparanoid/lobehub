@@ -240,124 +240,133 @@ export default {
     'Form a platform roadmap planning session with platform engineers, developer customers, a product manager, and leadership. Have them prioritize platform investments that maximize developer productivity and business value.',
   'group.40.title': 'Plan Platform Roadmap with Stakeholders',
   'title': 'Try These Examples',
+  // === Creative Writing (8) ===
   'write.01.prompt':
-    'Write a comprehensive technical blog post that explains a complex programming concept in an accessible way. Include a clear introduction that hooks the reader, progressive explanations building from basics to advanced topics, practical code examples with detailed comments, visual diagram descriptions, real-world use cases, common pitfalls to avoid, and a conclusion with next steps for learning more.',
-  'write.01.title': 'Write an Engaging Technical Blog Post with Examples',
+    'Write a captivating short story with compelling characters, an engaging plot, and a satisfying ending. Include vivid descriptions that bring scenes to life, natural dialogue that reveals character personalities, rising tension that keeps readers hooked, and a meaningful theme or message woven throughout the narrative.',
+  'write.01.title': 'Write a Captivating Short Story',
   'write.02.prompt':
-    'Generate a complete, professional README.md for an open source project that includes an eye-catching project description with badges, clear installation instructions for different platforms, quick start guide with basic usage examples, comprehensive API documentation with all available options, contribution guidelines with code style requirements, license information, and acknowledgments section.',
-  'write.02.title': 'Create a Professional README for Your Open Source Project',
+    'Create a beautiful poem that expresses deep emotions or captures a moment in time. Experiment with imagery, metaphor, rhythm, and sound devices. The poem can follow a traditional form (sonnet, haiku, etc.) or be free verse, but should have a clear voice and emotional resonance.',
+  'write.02.title': 'Craft a Beautiful Poem',
   'write.03.prompt':
-    "Write detailed API documentation that developers will actually want to read. Include an overview of the API's purpose and capabilities, authentication and authorization requirements with examples, endpoint references with request/response schemas, interactive code examples in multiple programming languages, comprehensive error code documentation with troubleshooting tips, rate limiting details, and versioning policy.",
-  'write.03.title': 'Document Your API with Developer-Friendly Guides',
+    'Write an engaging script for a short film, play, or video. Include compelling dialogue that sounds natural when spoken aloud, clear scene descriptions and stage directions, well-developed characters with distinct voices, and dramatic tension that drives the story forward.',
+  'write.03.title': 'Write a Script for Film or Stage',
   'write.04.prompt':
-    'Create a technical design document that clearly communicates the system architecture to both technical and non-technical stakeholders. Include problem statement and goals, high-level architecture overview with component diagrams, detailed data flow descriptions, technology choices with justification, scalability and performance considerations, security measures, testing strategy, and rollout plan with risk mitigation.',
-  'write.04.title': 'Write a Technical Design Document for Your System',
+    "Write an imaginative children's story or fairy tale with memorable characters, a clear moral lesson, age-appropriate language, and a sense of wonder and magic. Include elements that spark imagination while keeping the story accessible and engaging for young readers.",
+  'write.04.title': "Create a Magical Children's Story",
   'write.05.prompt':
-    'Write a user-friendly guide that helps users accomplish their goals with your software. Include a getting started section with prerequisites, step-by-step instructions with clear screenshots descriptions, helpful tips and shortcuts, frequently asked questions, troubleshooting section for common issues, and links to additional resources for advanced users.',
-  'write.05.title': 'Create a User Guide That Actually Helps Users',
+    'Craft an immersive science fiction or fantasy story with creative world-building, unique concepts, and compelling characters. Develop the rules of your fictional world consistently, create tension through conflict, and explore themes that resonate with readers.',
+  'write.05.title': 'Build an Imaginative Sci-Fi or Fantasy World',
   'write.06.prompt':
-    'Draft professional release notes that keep users informed and excited about updates. Include a summary of the release highlights, detailed descriptions of new features with usage examples, improvements and optimizations made, bugs fixed with issue references, breaking changes with clear migration instructions, deprecation notices, and acknowledgments for contributors.',
-  'write.06.title': 'Write Release Notes That Users Will Actually Read',
+    'Write a gripping mystery or thriller with suspenseful pacing, clever plot twists, and clues woven throughout the narrative. Create an intriguing puzzle for readers to solve alongside your protagonist while maintaining tension until the satisfying revelation.',
+  'write.06.title': 'Write a Gripping Mystery Story',
   'write.07.prompt':
-    'Write a thorough post-mortem report that turns a production incident into a learning opportunity. Include an executive summary, detailed timeline of events, root cause analysis using techniques like 5 Whys, impact assessment with affected users and systems, response evaluation including what went well and what could improve, concrete action items with owners and deadlines, and lessons learned for the team.',
-  'write.07.title': 'Document an Incident Post-Mortem for Team Learning',
+    'Write a thoughtful personal essay or memoir piece that reflects on life experiences, observations, or emotions. Use vivid details to bring memories to life, find universal themes in personal stories, and craft prose that is both intimate and meaningful to readers.',
+  'write.07.title': 'Write a Reflective Personal Essay',
   'write.08.prompt':
-    'Create a comprehensive onboarding guide that helps new developers become productive quickly. Include team introduction and communication channels, development environment setup instructions, codebase architecture overview with key directories, coding standards and conventions, common workflows like feature development and code review, debugging tips, list of helpful resources, and first week suggested tasks.',
-  'write.08.title': 'Build an Onboarding Guide for New Team Members',
+    'Create flash fiction or micro-stories that pack a powerful punch in very few words. Every word should count, with tight prose, implied backstory, and endings that surprise or resonate. Aim for complete stories in under 1000 words that leave lasting impressions.',
+  'write.08.title': 'Craft Powerful Flash Fiction',
+
+  // === Practical Writing (8) ===
   'write.09.prompt':
-    'Write a technical RFC (Request for Comments) that proposes a significant system change and invites feedback. Include a clear problem statement with impact, proposed solution with detailed technical approach, alternative solutions considered with trade-offs, migration strategy for existing systems, success metrics and monitoring plan, timeline and resource requirements, and open questions for discussion.',
-  'write.09.title': 'Draft a Technical RFC to Propose System Changes',
+    'Write a professional email that is clear, concise, and achieves its purpose effectively. Whether requesting information, following up, making a proposal, or addressing a sensitive issue, ensure the tone is appropriate, the structure is logical, and the call to action is clear.',
+  'write.09.title': 'Write a Professional Email',
   'write.10.prompt':
-    'Write a compelling project proposal document that clearly articulates the problem being solved and its business impact, presents a well-thought-out solution with technical approach, includes realistic milestones and timeline, specifies resource requirements and budget considerations, defines measurable success metrics and KPIs, and addresses potential risks with mitigation strategies.',
-  'write.10.title': 'Draft a Project Proposal to Get Stakeholder Buy-in',
+    'Create a compelling resume that highlights your skills, experience, and achievements effectively. Use strong action verbs, quantify accomplishments where possible, tailor content to the target role, and ensure clean formatting that passes ATS systems while remaining readable.',
+  'write.10.title': 'Build an Impressive Resume',
   'write.11.prompt':
-    'Create a comprehensive testing strategy document that outlines the testing approach for a software project. Include testing objectives and scope, test levels (unit, integration, e2e, performance), test environment requirements, test data management strategy, automation approach with tool selections, quality gates and coverage targets, and roles and responsibilities.',
-  'write.11.title': 'Write a Testing Strategy for Quality Assurance',
+    'Write a persuasive cover letter that complements your resume and tells your professional story. Show genuine enthusiasm for the role and company, highlight relevant experiences that match job requirements, and demonstrate your unique value proposition in a memorable way.',
+  'write.11.title': 'Craft a Compelling Cover Letter',
   'write.12.prompt':
-    'Write a clear and actionable runbook for operating a production system. Include system overview and architecture, common operational tasks with step-by-step instructions, monitoring and alerting guide, incident response procedures, troubleshooting decision trees, escalation paths, and maintenance procedures with scheduling recommendations.',
-  'write.12.title': 'Create an Operations Runbook for Your System',
+    'Write an engaging speech or presentation script that captures and holds audience attention. Include a strong opening hook, clear structure with smooth transitions, compelling stories or examples, and a memorable conclusion with clear takeaways or call to action.',
+  'write.12.title': 'Write an Engaging Speech',
   'write.13.prompt':
-    'Draft a security assessment report that evaluates the security posture of an application. Include executive summary for leadership, methodology and scope, vulnerability findings categorized by severity, detailed technical descriptions with evidence, risk ratings and business impact, prioritized remediation recommendations, and compliance status against relevant standards.',
-  'write.13.title': 'Write a Security Assessment Report',
+    'Write a heartfelt thank you letter that expresses genuine gratitude. Whether for a gift, interview, favor, or support, be specific about what you appreciate, explain the impact it had on you, and maintain an authentic tone that strengthens the relationship.',
+  'write.13.title': 'Write a Heartfelt Thank You Letter',
   'write.14.prompt':
-    'Create a data migration plan that ensures safe and complete data transfer between systems. Include migration scope and objectives, data mapping and transformation rules, validation and verification procedures, rollback strategy and triggers, timeline with milestones, communication plan for stakeholders, and post-migration verification checklist.',
-  'write.14.title': 'Plan a Data Migration with Detailed Documentation',
+    'Write a sincere apology letter that takes responsibility, expresses genuine remorse, and offers a path forward. Acknowledge the specific harm caused, avoid making excuses, explain how you will prevent recurrence, and request forgiveness without demanding it.',
+  'write.14.title': 'Write a Sincere Apology Letter',
   'write.15.prompt':
-    'Write a performance optimization report that documents findings and recommendations. Include baseline performance metrics, load testing methodology and results, identified bottlenecks with root cause analysis, optimization recommendations prioritized by impact, implementation roadmap, expected improvements with success criteria, and monitoring plan.',
-  'write.15.title': 'Document Performance Optimization Findings',
+    'Create an elegant invitation for an event, whether formal (wedding, gala) or casual (party, gathering). Include all essential details (who, what, when, where, RSVP), set the appropriate tone, and build anticipation while being clear about expectations.',
+  'write.15.title': 'Design an Elegant Event Invitation',
   'write.16.prompt':
-    'Create a disaster recovery plan that ensures business continuity. Include business impact analysis, recovery objectives (RTO/RPO), critical system inventory and dependencies, recovery procedures for different scenarios, communication protocols and contact lists, testing schedule and procedures, and plan maintenance and update process.',
-  'write.16.title': 'Write a Disaster Recovery Plan for Resilience',
+    'Write a strong recommendation letter that advocates effectively for someone. Include specific examples of their strengths and accomplishments, provide context for your relationship and observations, and offer genuine endorsement that helps the reader make informed decisions.',
+  'write.16.title': 'Write a Strong Recommendation Letter',
+
+  // === Content Creation (8) ===
   'write.17.prompt':
-    'Write a code review guide that helps team members provide effective feedback. Include review objectives and principles, what to look for (correctness, performance, security, style), how to provide constructive feedback, common patterns and anti-patterns to watch for, review workflow and tools, and examples of good review comments.',
-  'write.17.title': 'Create a Code Review Guide for Your Team',
+    'Write an honest and helpful product review that guides potential buyers. Cover key features, real-world performance, pros and cons, value for money, and who the product is best suited for. Include specific examples from your experience and a clear recommendation.',
+  'write.17.title': 'Write a Helpful Product Review',
   'write.18.prompt':
-    'Draft a technical interview guide for hiring engineers at a specific level. Include competencies to assess, example questions for each competency with follow-ups, evaluation rubrics with clear criteria, red flags and green flags to watch for, interview logistics and timing, and candidate experience considerations.',
-  'write.18.title': 'Design a Technical Interview Guide',
+    'Create a comprehensive travel guide or itinerary for a destination. Include must-see attractions, hidden gems, practical tips (transportation, accommodation, food), budget considerations, and insider advice that helps travelers make the most of their trip.',
+  'write.18.title': 'Create a Travel Guide or Itinerary',
   'write.19.prompt':
-    'Write a comprehensive changelog that helps users understand what changed between versions. Include version numbers with release dates, categorized changes (added, changed, deprecated, removed, fixed, security), clear descriptions with links to relevant docs or issues, migration notes for breaking changes, and acknowledgments for contributors.',
-  'write.19.title': 'Maintain a Helpful Changelog for Your Project',
+    'Write engaging social media content that captures attention and drives engagement. Whether for Instagram, Twitter/X, LinkedIn, or TikTok, craft content that fits the platform, resonates with the target audience, and includes compelling hooks and clear calls to action.',
+  'write.19.title': 'Craft Engaging Social Media Content',
   'write.20.prompt':
-    'Create a software architecture decision record (ADR) that documents a significant technical decision. Include the context and problem statement, decision drivers and constraints, considered options with pros and cons, the chosen solution with rationale, consequences and trade-offs accepted, and related decisions or documents.',
-  'write.20.title': 'Document Architecture Decisions with ADRs',
+    'Write a mouthwatering food review or recipe with vivid descriptions that make readers hungry. For reviews, capture the atmosphere, service, and flavors. For recipes, provide clear instructions, helpful tips, and the story behind the dish.',
+  'write.20.title': 'Write a Delicious Food Review or Recipe',
   'write.21.prompt':
-    'Write a comprehensive style guide for technical writing in your organization. Include voice and tone guidelines, formatting standards, terminology preferences and glossary, code example conventions, accessibility requirements, review process, and templates for common document types.',
-  'write.21.title': 'Create a Technical Writing Style Guide',
+    'Write a thoughtful book review or movie review that helps readers decide if it is for them. Summarize without spoiling, analyze themes and craft, discuss what works and what does not, identify the ideal audience, and offer a clear rating or recommendation.',
+  'write.21.title': 'Write a Thoughtful Book or Movie Review',
   'write.22.prompt':
-    'Draft an engineering team charter that defines how the team operates. Include team mission and objectives, team composition and roles, decision-making processes, communication norms and meeting cadences, technical practices and standards, collaboration agreements, and success metrics and review process.',
-  'write.22.title': 'Write an Engineering Team Charter',
+    'Write an engaging personal blog post that connects with readers. Choose a topic you care about, share your unique perspective, use a conversational tone, include personal anecdotes or examples, and end with thoughts that invite reader reflection or discussion.',
+  'write.22.title': 'Write an Engaging Blog Post',
   'write.23.prompt':
-    'Create a vendor evaluation document that helps make informed technology decisions. Include evaluation criteria with weightings, vendor comparison matrix, technical assessment findings, security and compliance review, total cost of ownership analysis, risk assessment, and final recommendation with rationale.',
-  'write.23.title': 'Evaluate Vendors with Structured Documentation',
+    'Write a clear and objective news article following journalistic standards. Cover the essential who, what, when, where, why, and how. Use an inverted pyramid structure, include relevant quotes, maintain neutrality, and verify facts before reporting.',
+  'write.23.title': 'Write a Clear News Article',
   'write.24.prompt':
-    'Write a product requirements document (PRD) that clearly defines what to build. Include problem statement and user needs, user personas and use cases, functional requirements with acceptance criteria, non-functional requirements (performance, security, etc.), UI/UX requirements with wireframes, success metrics, and timeline with dependencies.',
-  'write.24.title': 'Write Clear Product Requirements Documents',
+    'Write an insightful interview article that brings a conversation to life. Prepare thoughtful questions, capture the subject personality and voice, weave quotes into a compelling narrative, and provide context that helps readers understand why this person story matters.',
+  'write.24.title': 'Write an Engaging Interview Article',
+
+  // === Business & Academic (6) ===
   'write.25.prompt':
-    'Create a system integration guide that helps teams connect with your system. Include integration overview and use cases, authentication and authorization setup, API endpoints with request/response examples, webhook configuration, error handling and retry strategies, testing and debugging tips, and support and escalation contacts.',
-  'write.25.title': 'Document System Integration for Partners',
+    'Write a comprehensive business plan that convinces investors or guides your venture. Include executive summary, market analysis, competitive landscape, business model, marketing strategy, financial projections, team overview, and funding requirements with clear use of funds.',
+  'write.25.title': 'Write a Comprehensive Business Plan',
   'write.26.prompt':
-    'Write a capacity planning document that forecasts infrastructure needs. Include current system metrics and trends, growth projections with assumptions, capacity requirements analysis, scaling strategies and triggers, cost projections and optimization opportunities, implementation timeline, and review and update cadence.',
-  'write.26.title': 'Plan Infrastructure Capacity for Growth',
+    'Write detailed and useful reading notes or a book summary that captures key insights. Include main arguments and supporting points, memorable quotes, personal reflections, practical applications, and questions for further exploration.',
+  'write.26.title': 'Write Useful Reading Notes',
   'write.27.prompt':
-    'Draft a compliance documentation package for regulatory requirements. Include compliance scope and applicable regulations, control mapping to requirements, evidence of compliance with documentation, gap analysis and remediation plan, audit preparation checklist, and ongoing compliance monitoring process.',
-  'write.27.title': 'Prepare Compliance Documentation for Audits',
+    'Write a thorough research report or analysis on a topic. Include clear methodology, well-organized findings, data visualization descriptions, balanced analysis of different perspectives, and actionable conclusions supported by evidence.',
+  'write.27.title': 'Write a Research Report',
   'write.28.prompt':
-    'Create a feature specification document that guides implementation. Include feature overview and business value, user stories with acceptance criteria, technical requirements and constraints, data model changes, API changes with contracts, UI specifications, testing requirements, and rollout plan with feature flags.',
-  'write.28.title': 'Specify Features for Clear Implementation',
+    'Write a market analysis that identifies opportunities and threats. Include industry overview, target customer analysis, competitor mapping, trend identification, SWOT analysis, and strategic recommendations based on findings.',
+  'write.28.title': 'Write a Market Analysis',
   'write.29.prompt':
-    'Write a knowledge base article that helps users solve a specific problem. Include a clear problem statement, prerequisites and assumptions, step-by-step solution with screenshots, alternative approaches when applicable, troubleshooting tips for common issues, related articles and next steps, and feedback mechanism.',
-  'write.29.title': 'Write Knowledge Base Articles That Solve Problems',
+    'Write clear and actionable meeting minutes that capture decisions and next steps. Include attendees, agenda items discussed, key discussion points, decisions made, action items with owners and deadlines, and items for follow-up.',
+  'write.29.title': 'Write Clear Meeting Minutes',
   'write.30.prompt':
-    'Create a sprint report that communicates progress to stakeholders. Include sprint goals and whether they were achieved, completed work with demos or screenshots, incomplete work with explanations, metrics and trends (velocity, quality, etc.), challenges encountered and how they were addressed, learnings and improvements, and next sprint preview.',
-  'write.30.title': 'Write Sprint Reports for Stakeholder Updates',
+    'Write a reflective year-end summary or annual review that captures accomplishments and learnings. Include key achievements with metrics, challenges overcome, lessons learned, goals assessment, and objectives for the coming year.',
+  'write.30.title': 'Write a Year-End Summary',
+
+  // === Technical Documentation (10) ===
   'write.31.prompt':
-    'Draft a technical debt inventory that tracks and prioritizes code quality issues. Include debt categories and definitions, inventory of current debt items with descriptions, impact assessment for each item, remediation effort estimates, prioritization framework and rankings, proposed remediation roadmap, and tracking and reporting process.',
-  'write.31.title': 'Document Technical Debt for Strategic Planning',
+    'Write a comprehensive technical blog post that explains a complex programming concept in an accessible way. Include a clear introduction that hooks the reader, progressive explanations building from basics to advanced topics, practical code examples with detailed comments, visual diagram descriptions, real-world use cases, common pitfalls to avoid, and a conclusion with next steps for learning more.',
+  'write.31.title': 'Write an Engaging Technical Blog Post',
   'write.32.prompt':
-    'Write an API versioning strategy document that guides long-term API evolution. Include versioning scheme and conventions, backward compatibility policy, deprecation process and timelines, migration support approach, version lifecycle stages, communication plan for changes, and client upgrade guidance.',
-  'write.32.title': 'Plan API Versioning Strategy for Long-term Success',
+    'Generate a complete, professional README.md for an open source project that includes an eye-catching project description with badges, clear installation instructions for different platforms, quick start guide with basic usage examples, comprehensive API documentation with all available options, contribution guidelines with code style requirements, license information, and acknowledgments section.',
+  'write.32.title': 'Create a Professional README',
   'write.33.prompt':
-    'Create a monitoring and alerting guide for a production system. Include key metrics to monitor, dashboard design and organization, alert definitions with thresholds, on-call response procedures, incident classification criteria, escalation paths, and regular review and tuning process.',
-  'write.33.title': 'Design Monitoring and Alerting for Production',
+    "Write detailed API documentation that developers will actually want to read. Include an overview of the API's purpose and capabilities, authentication and authorization requirements with examples, endpoint references with request/response schemas, interactive code examples in multiple programming languages, comprehensive error code documentation with troubleshooting tips, rate limiting details, and versioning policy.",
+  'write.33.title': 'Document Your API',
   'write.34.prompt':
-    'Write a database schema documentation that helps developers understand data structures. Include entity-relationship diagrams, table descriptions with column details, relationship explanations, indexing strategy and rationale, common queries and their optimization, data lifecycle and archival policies, and change management process.',
-  'write.34.title': 'Document Database Schema for Developers',
+    'Create a technical design document that clearly communicates the system architecture to both technical and non-technical stakeholders. Include problem statement and goals, high-level architecture overview with component diagrams, detailed data flow descriptions, technology choices with justification, scalability and performance considerations, security measures, testing strategy, and rollout plan with risk mitigation.',
+  'write.34.title': 'Write a Technical Design Document',
   'write.35.prompt':
-    'Draft a cost optimization report that identifies savings opportunities. Include current cost breakdown by service, cost trends and projections, optimization opportunities identified, implementation recommendations with estimated savings, risk assessment for each recommendation, prioritized action plan, and ongoing monitoring approach.',
-  'write.35.title': 'Write Cost Optimization Reports for Cloud Spending',
+    'Write a user-friendly guide that helps users accomplish their goals with your software. Include a getting started section with prerequisites, step-by-step instructions with clear screenshots descriptions, helpful tips and shortcuts, frequently asked questions, troubleshooting section for common issues, and links to additional resources for advanced users.',
+  'write.35.title': 'Create a User Guide',
   'write.36.prompt':
-    'Create an engineering career ladder document that defines growth paths. Include level definitions with expectations, competency frameworks for each level, example behaviors and impact at each level, promotion criteria and process, compensation philosophy, career path options (IC vs management), and FAQ for common questions.',
-  'write.36.title': 'Define Engineering Career Ladders for Growth',
+    'Draft professional release notes that keep users informed and excited about updates. Include a summary of the release highlights, detailed descriptions of new features with usage examples, improvements and optimizations made, bugs fixed with issue references, breaking changes with clear migration instructions, deprecation notices, and acknowledgments for contributors.',
+  'write.36.title': 'Write Release Notes',
   'write.37.prompt':
-    'Write a data privacy impact assessment for a new feature or system. Include processing activity description, data inventory and flows, legal basis for processing, risk identification and assessment, privacy controls and mitigations, data subject rights implementation, and compliance verification checklist.',
-  'write.37.title': 'Assess Data Privacy Impact for New Features',
+    'Create a comprehensive onboarding guide that helps new team members become productive quickly. Include team introduction and communication channels, environment setup instructions, codebase architecture overview with key directories, standards and conventions, common workflows, debugging tips, list of helpful resources, and first week suggested tasks.',
+  'write.37.title': 'Build an Onboarding Guide',
   'write.38.prompt':
-    'Create a service level agreement (SLA) document for internal or external customers. Include service description and scope, availability and performance targets, measurement methodology, incident response commitments, exclusions and limitations, remediation and compensation terms, and review and amendment process.',
-  'write.38.title': 'Define Service Level Agreements for Reliability',
+    'Write a compelling project proposal document that clearly articulates the problem being solved and its business impact, presents a well-thought-out solution with technical approach, includes realistic milestones and timeline, specifies resource requirements and budget considerations, defines measurable success metrics and KPIs, and addresses potential risks with mitigation strategies.',
+  'write.38.title': 'Draft a Project Proposal',
   'write.39.prompt':
-    'Write a technology radar document that guides technology adoption decisions. Include radar format explanation, technology categorization (adopt, trial, assess, hold), rationale for each technology placement, adoption guidelines and considerations, review and update cadence, and contribution process for suggestions.',
-  'write.39.title': 'Create a Technology Radar for Strategic Decisions',
+    'Write a product requirements document (PRD) that clearly defines what to build. Include problem statement and user needs, user personas and use cases, functional requirements with acceptance criteria, non-functional requirements (performance, security, etc.), UI/UX requirements with wireframes, success metrics, and timeline with dependencies.',
+  'write.39.title': 'Write a Product Requirements Document',
   'write.40.prompt':
-    'Draft a lessons learned document from a completed project. Include project overview and objectives, what went well with specific examples, what could be improved with root causes, unexpected challenges and how they were handled, recommendations for future projects, quantified outcomes vs initial estimates, and team acknowledgments.',
-  'write.40.title': 'Document Lessons Learned for Continuous Improvement',
+    'Write a knowledge base article that helps users solve a specific problem. Include a clear problem statement, prerequisites and assumptions, step-by-step solution with screenshots, alternative approaches when applicable, troubleshooting tips for common issues, related articles and next steps, and feedback mechanism.',
+  'write.40.title': 'Write a Knowledge Base Article',
 };
