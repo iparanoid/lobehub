@@ -9,6 +9,7 @@ import { agentByIdSelectors } from '@/store/agent/selectors';
 import { useChatStore } from '@/store/chat';
 import { useHomeStore } from '@/store/home';
 
+import CommunityRecommend from '../CommunityRecommend';
 import SuggestQuestions from '../SuggestQuestions';
 import ModeHeader from './ModeHeader';
 import SkillInstallBanner from './SkillInstallBanner';
@@ -98,7 +99,10 @@ const InputArea = () => {
               ease: [0.4, 0, 0.2, 1],
             }}
           >
-            <SuggestQuestions mode={inputActiveMode} />
+            <Flexbox gap={24}>
+              <SuggestQuestions mode={inputActiveMode} />
+              <CommunityRecommend mode={inputActiveMode} />
+            </Flexbox>
           </motion.div>
         )}
       </AnimatePresence>

@@ -185,6 +185,12 @@ export default {
 
   'home.more': 'Discover More',
 
+  'home.recommendAgents': 'Recommended Agents',
+
+  'home.recommendGroups': 'Recommended Groups',
+
+  'home.recommendWritingAgents': 'Writing Agents',
+
   'isClaimed': 'Claimed',
 
   'isFeatured': 'Featured',
