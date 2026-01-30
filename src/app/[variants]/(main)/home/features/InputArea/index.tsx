@@ -1,4 +1,5 @@
 import { Flexbox } from '@lobehub/ui';
+import { AnimatePresence, m as motion } from 'motion/react';
 import { useMemo } from 'react';
 
 import DragUploadZone, { useUploadFiles } from '@/components/DragUploadZone';
@@ -8,6 +9,7 @@ import { agentByIdSelectors } from '@/store/agent/selectors';
 import { useChatStore } from '@/store/chat';
 import { useHomeStore } from '@/store/home';
 
+import SuggestQuestions from '../SuggestQuestions';
 import ModeHeader from './ModeHeader';
 import SkillInstallBanner from './SkillInstallBanner';
 import StarterList from './StarterList';
@@ -39,6 +41,9 @@ const InputArea = () => {
     }),
     [],
   );
+
+  const showSuggestQuestions =
+    inputActiveMode && ['agent', 'group', 'write'].includes(inputActiveMode);
 
   return (
     <Flexbox gap={16} style={{ marginBottom: 16 }}>
@@ -77,7 +82,26 @@ const InputArea = () => {
         </DragUploadZone>
       </Flexbox>
 
-      <StarterList />
+      {/* Keep StarterList mounted to prevent useInitBuiltinAgent hooks from re-running */}
+      <div style={{ display: showSuggestQuestions ? 'none' : undefined }}>
+        <StarterList />
+      </div>
+      <AnimatePresence mode="popLayout">
+        {showSuggestQuestions && (
+          <motion.div
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.98, y: 8 }}
+            initial={{ opacity: 0, scale: 0.98, y: 8 }}
+            key={inputActiveMode}
+            transition={{
+              duration: 0.2,
+              ease: [0.4, 0, 0.2, 1],
+            }}
+          >
+            <SuggestQuestions mode={inputActiveMode} />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </Flexbox>
   );
 };

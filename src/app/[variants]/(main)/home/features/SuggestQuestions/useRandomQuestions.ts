@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useMemo } from 'react';
 
 import { type StarterMode } from '@/store/home';
 
-const QUESTION_COUNT = 20;
+const QUESTION_COUNT = 40;
 const DISPLAY_COUNT = 5;
 
 const shuffleArray = <T>(array: T[]): T[] => {
@@ -21,22 +21,17 @@ export interface QuestionItem {
 }
 
 export const useRandomQuestions = (mode: StarterMode): QuestionItem[] => {
-  const [questions, setQuestions] = useState<QuestionItem[]>([]);
-
-  useEffect(() => {
-    if (mode && ['agent', 'group', 'write'].includes(mode)) {
-      const ids = Array.from({ length: QUESTION_COUNT }, (_, i) => i + 1);
-      const shuffled = shuffleArray(ids);
-      const selected = shuffled.slice(0, DISPLAY_COUNT).map((id) => ({
-        id,
-        promptKey: `${mode}.${id}.prompt`,
-        titleKey: `${mode}.${id}.title`,
-      }));
-      setQuestions(selected);
-    } else {
-      setQuestions([]);
+  return useMemo(() => {
+    if (!mode || !['agent', 'group', 'write'].includes(mode)) {
+      return [];
     }
-  }, [mode]);
 
-  return questions;
+    const ids = Array.from({ length: QUESTION_COUNT }, (_, i) => i + 1);
+    const shuffled = shuffleArray(ids);
+    return shuffled.slice(0, DISPLAY_COUNT).map((id) => ({
+      id,
+      promptKey: `${mode}.${String(id).padStart(2, '0')}.prompt`,
+      titleKey: `${mode}.${String(id).padStart(2, '0')}.title`,
+    }));
+  }, [mode]);
 };

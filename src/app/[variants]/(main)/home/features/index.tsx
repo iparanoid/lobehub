@@ -13,7 +13,6 @@ import InputArea from './InputArea';
 import RecentPage from './RecentPage';
 import RecentResource from './RecentResource';
 import RecentTopic from './RecentTopic';
-import SuggestQuestions from './SuggestQuestions';
 import WelcomeText from './WelcomeText';
 
 const Home = memo(() => {
@@ -21,7 +20,8 @@ const Home = memo(() => {
   const isLogin = useUserStore(authSelectors.isLogin);
   const inputActiveMode = useHomeStore((s) => s.inputActiveMode);
 
-  const showSuggestQuestions = inputActiveMode && ['agent', 'group'].includes(inputActiveMode);
+  // Hide other modules when a starter mode is active
+  const hideOtherModules = inputActiveMode && ['agent', 'group', 'write'].includes(inputActiveMode);
 
   const Welcome = useCallback(() => <WelcomeText />, [i18n.language]);
 
@@ -29,21 +29,18 @@ const Home = memo(() => {
     <Flexbox gap={40}>
       <Welcome />
       <InputArea />
-      {showSuggestQuestions ? (
-        <SuggestQuestions mode={inputActiveMode} />
-      ) : (
-        <>
-          {isLogin && (
-            <>
-              <RecentTopic />
-              <RecentPage />
-            </>
-          )}
-          <CommunityAgents />
-          {/*<FeaturedPlugins />*/}
-          {isLogin && <RecentResource />}
-        </>
-      )}
+      {/* Use CSS visibility to hide instead of unmounting to prevent data re-fetching */}
+      <Flexbox gap={40} style={{ display: hideOtherModules ? 'none' : undefined }}>
+        {isLogin && (
+          <>
+            <RecentTopic />
+            <RecentPage />
+          </>
+        )}
+        <CommunityAgents />
+        {/*<FeaturedPlugins />*/}
+        {isLogin && <RecentResource />}
+      </Flexbox>
     </Flexbox>
   );
 });
