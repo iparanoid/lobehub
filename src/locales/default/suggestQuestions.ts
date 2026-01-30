@@ -1,244 +1,250 @@
 export default {
+  // === General Life & Learning (28) ===
   'agent.01.prompt':
-    'Create a senior code reviewer who specializes in identifying code smells, potential bugs, security vulnerabilities, and performance issues. They should provide constructive feedback with specific suggestions for improvement, explain the reasoning behind each recommendation, and help enforce coding standards and best practices across the codebase.',
-  'agent.01.title': 'Build a Code Review Expert to Improve Code Quality',
+    "Create a creative writing mentor who can help with storytelling techniques, character development, plot structure, and finding your unique voice. They should provide constructive feedback on your writing, suggest exercises to overcome writer's block, and guide you through different genres and styles.",
+  'agent.01.title': 'Improve Your Writing with a Creative Mentor',
   'agent.02.prompt':
-    'Create a technical writing specialist who excels at transforming complex technical concepts into clear, well-structured documentation. They should help write API references, user guides, tutorials, and technical blog posts with proper formatting, consistent terminology, and appropriate level of detail for the target audience.',
-  'agent.02.title': 'Create a Technical Writer for Better Documentation',
+    'Create a patient and encouraging language learning coach who can help you practice conversation, explain grammar concepts clearly, correct mistakes gently, teach idiomatic expressions, and design personalized study plans based on your goals and learning style.',
+  'agent.02.title': 'Learn Languages with a Personal Coach',
   'agent.03.prompt':
-    'Create a frontend development mentor who is an expert in modern frameworks like React, Vue, and Angular. They should explain complex concepts in simple terms, review component architecture, suggest performance optimizations, help debug tricky UI issues, and guide best practices for state management, testing, and accessibility.',
-  'agent.03.title': 'Learn from a Frontend Development Mentor',
+    'Create a knowledgeable fitness coach who can design workout plans tailored to your goals, explain proper exercise form, suggest modifications for different fitness levels, provide motivation and accountability, and help you develop sustainable healthy habits.',
+  'agent.03.title': 'Get Fit with a Personal Trainer',
   'agent.04.prompt':
-    'Create a database architect who can help design efficient database schemas, optimize slow queries, choose between SQL and NoSQL solutions, implement proper indexing strategies, and advise on data modeling patterns, migration strategies, and scaling approaches for different use cases.',
-  'agent.04.title': 'Consult a Database Architect for Data Design',
+    'Create a nutrition advisor who can help you understand healthy eating principles, create balanced meal plans, navigate dietary restrictions or preferences, debunk nutrition myths, and develop a positive relationship with food.',
+  'agent.04.title': 'Eat Better with a Nutrition Advisor',
   'agent.05.prompt':
-    'Create a DevOps engineer who specializes in building robust CI/CD pipelines, containerization with Docker and Kubernetes, infrastructure as code, cloud platform optimization (AWS/GCP/Azure), monitoring and alerting setup, and implementing security best practices throughout the deployment lifecycle.',
-  'agent.05.title': 'Work with a DevOps Engineer for Infrastructure',
+    'Create an empathetic emotional wellness coach who can help you process feelings, develop coping strategies, build resilience, improve self-awareness, and work through challenges with compassion and practical techniques.',
+  'agent.05.title': 'Support Your Mental Wellness',
   'agent.06.prompt':
-    'Create a product manager who can help define clear product requirements, write effective user stories with acceptance criteria, prioritize features using frameworks like RICE or MoSCoW, create product roadmaps, and facilitate communication between stakeholders, designers, and engineering teams.',
-  'agent.06.title': 'Collaborate with a Product Manager on Requirements',
+    'Create a personal finance advisor who can explain budgeting basics, help you create savings plans, understand investment options, manage debt strategically, and work toward your financial goals with clear, jargon-free guidance.',
+  'agent.06.title': 'Master Your Finances with Expert Guidance',
   'agent.07.prompt':
-    'Create a UX design consultant who can evaluate user interfaces for usability issues, suggest improvements based on design principles and user psychology, help create consistent design systems, conduct heuristic evaluations, and provide guidance on accessibility, responsive design, and user research methods.',
-  'agent.07.title': 'Get UX Design Feedback from an Expert Consultant',
+    'Create an enthusiastic travel planner who can help you discover destinations, create detailed itineraries, find hidden gems, optimize travel budgets, navigate local customs, and make the most of your adventures.',
+  'agent.07.title': 'Plan Amazing Trips with a Travel Expert',
   'agent.08.prompt':
-    'Create an API design specialist who can help design intuitive RESTful or GraphQL APIs with consistent naming conventions, proper HTTP methods and status codes, comprehensive error handling, pagination strategies, versioning approaches, and clear documentation that developers will love to use.',
-  'agent.08.title': 'Design Better APIs with an API Specialist',
+    'Create a passionate culinary guide who can teach cooking techniques, suggest recipes based on ingredients you have, explain flavor combinations, help you explore cuisines from around the world, and build your confidence in the kitchen.',
+  'agent.08.title': 'Cook Better with a Culinary Guide',
   'agent.09.prompt':
-    'Create a security analyst who can perform code security reviews, identify vulnerabilities like SQL injection, XSS, and CSRF, recommend secure authentication and authorization patterns, help implement encryption properly, and guide compliance with security standards like OWASP Top 10.',
-  'agent.09.title': 'Strengthen Security with a Security Analyst',
+    'Create a thoughtful career counselor who can help you explore career paths, identify your strengths and interests, prepare for job transitions, develop professional skills, and create actionable plans to achieve your career goals.',
+  'agent.09.title': 'Navigate Your Career Path',
   'agent.10.prompt':
-    'Create a startup advisor with experience in venture capital and entrepreneurship who can help evaluate business ideas, develop pitch decks, create financial projections, navigate fundraising rounds, and provide strategic guidance on product-market fit, scaling strategies, and common pitfalls to avoid in early-stage startups.',
-  'agent.10.title': 'Get a Startup Advisor for Business Strategy',
+    'Create a learning strategist who can help you study more effectively, improve memory and retention, develop critical thinking skills, overcome procrastination, and build lifelong learning habits tailored to your style.',
+  'agent.10.title': 'Learn Smarter with Study Strategies',
   'agent.11.prompt':
-    'Create a backend architect who specializes in designing scalable microservices architectures, implementing event-driven systems, optimizing API performance, managing distributed systems challenges, and making technology stack decisions that balance performance, maintainability, and team expertise.',
-  'agent.11.title': 'Architect Scalable Backend Systems',
+    'Create a captivating history storyteller who can bring historical events to life, explain the connections between past and present, share fascinating stories about different civilizations, and help you understand how history shapes our world.',
+  'agent.11.title': 'Explore History with a Storyteller',
   'agent.12.prompt':
-    'Create a machine learning engineer who can help with model selection, feature engineering, training pipeline optimization, model deployment strategies, and explaining ML concepts in practical terms. They should guide you through the entire ML lifecycle from problem formulation to production deployment.',
-  'agent.12.title': 'Build ML Solutions with an ML Engineer',
+    "Create a thoughtful philosophy guide who can explain complex ideas in accessible ways, facilitate discussions about life's big questions, introduce different philosophical traditions, and help you develop your own worldview through reflection.",
+  'agent.12.title': 'Ponder Life with a Philosophy Guide',
   'agent.13.prompt':
-    'Create a mobile development expert who specializes in iOS and Android development, cross-platform frameworks like React Native and Flutter, mobile UI/UX best practices, app performance optimization, and navigating app store guidelines and submission processes.',
-  'agent.13.title': 'Develop Mobile Apps with a Mobile Expert',
+    'Create a skilled photography mentor who can teach composition techniques, explain camera settings, provide feedback on your photos, suggest creative exercises, and help you develop your unique visual style.',
+  'agent.13.title': 'Capture Better Photos with Expert Tips',
   'agent.14.prompt':
-    'Create a data scientist who can help with statistical analysis, data visualization, hypothesis testing, predictive modeling, and translating business questions into data-driven insights. They should explain complex analytical concepts in accessible ways and recommend appropriate tools and techniques.',
-  'agent.14.title': 'Analyze Data with a Data Scientist',
+    'Create a supportive parenting advisor who can offer evidence-based guidance on child development, suggest age-appropriate activities, help navigate challenging behaviors, and provide reassurance while respecting different parenting styles.',
+  'agent.14.title': 'Get Parenting Guidance and Support',
   'agent.15.prompt':
-    'Create a QA automation engineer who specializes in test strategy development, test automation frameworks, continuous testing in CI/CD pipelines, performance testing, and building maintainable test suites that catch bugs early while minimizing false positives.',
-  'agent.15.title': 'Improve Testing with a QA Automation Expert',
+    'Create a knowledgeable legal guide who can explain legal concepts in plain language, help you understand your rights, navigate common legal situations, and know when to seek professional legal help.',
+  'agent.15.title': 'Understand Legal Matters Simply',
   'agent.16.prompt':
-    'Create a technical project manager who can help with agile methodology implementation, sprint planning, risk management, stakeholder communication, resource allocation, and keeping complex technical projects on track while maintaining team morale and productivity.',
-  'agent.16.title': 'Manage Projects with a Technical PM',
+    'Create a marketing strategist who can help you understand your audience, develop compelling messaging, choose effective channels, create content strategies, and measure results to grow your business or personal brand.',
+  'agent.16.title': 'Grow with Marketing Strategies',
   'agent.17.prompt':
-    'Create a cloud solutions architect who can design cost-effective, highly available cloud infrastructures, implement disaster recovery strategies, optimize cloud spending, and help migrate legacy systems to modern cloud-native architectures on AWS, GCP, or Azure.',
-  'agent.17.title': 'Design Cloud Architecture with an Expert',
+    'Create a relationship coach who can help you improve communication skills, navigate conflicts constructively, build stronger connections, set healthy boundaries, and develop more fulfilling personal and professional relationships.',
+  'agent.17.title': 'Build Better Relationships',
   'agent.18.prompt':
-    'Create a performance optimization specialist who can identify bottlenecks in applications, optimize database queries, improve frontend loading times, implement caching strategies, and use profiling tools to achieve measurable performance improvements.',
-  'agent.18.title': 'Optimize Performance with a Specialist',
+    'Create a productivity expert who can help you manage time effectively, prioritize tasks, build better habits, overcome procrastination, and create systems that help you accomplish more while maintaining balance.',
+  'agent.18.title': 'Boost Productivity and Focus',
   'agent.19.prompt':
-    'Create a technical recruiter assistant who understands software engineering roles deeply, can help write compelling job descriptions, screen technical resumes effectively, prepare interview questions, and provide guidance on building diverse and high-performing engineering teams.',
-  'agent.19.title': 'Hire Better with a Technical Recruiter',
+    'Create a mindfulness guide who can teach meditation techniques, help you manage stress, develop present-moment awareness, build a consistent practice, and apply mindfulness principles to daily life.',
+  'agent.19.title': 'Find Calm with Mindfulness Practice',
   'agent.20.prompt':
-    'Create a developer advocate who can help create engaging technical content, design effective developer onboarding experiences, build developer community programs, gather and synthesize developer feedback, and represent developer needs to product teams.',
-  'agent.20.title': 'Engage Developers with a Dev Advocate',
+    'Create an entertainment curator who can recommend books, movies, TV shows, podcasts, and music based on your tastes, explain why you might enjoy them, and help you discover hidden gems across different genres.',
+  'agent.20.title': 'Discover Great Books, Movies, and More',
   'agent.21.prompt':
-    'Create a system reliability engineer (SRE) who specializes in building reliable systems through error budgets, SLOs/SLIs, incident management processes, chaos engineering, and implementing observability practices that help teams ship faster while maintaining system stability.',
-  'agent.21.title': 'Build Reliable Systems with an SRE',
+    'Create a public speaking coach who can help you overcome nervousness, structure compelling presentations, improve delivery and body language, handle Q&A sessions, and become a more confident and engaging speaker.',
+  'agent.21.title': 'Speak with Confidence',
   'agent.22.prompt':
-    'Create a blockchain developer who can explain distributed ledger concepts, help design smart contracts, advise on consensus mechanisms, implement Web3 integrations, and navigate the technical and regulatory landscape of decentralized applications.',
-  'agent.22.title': 'Explore Blockchain with a Web3 Developer',
+    'Create an interview coach who can help you prepare for job interviews, practice common questions, develop compelling stories about your experience, handle difficult questions, and make a great impression.',
+  'agent.22.title': 'Ace Your Job Interviews',
   'agent.23.prompt':
-    'Create a game developer who specializes in game engine architecture, physics systems, multiplayer networking, game optimization techniques, and balancing gameplay mechanics. They should understand both the technical and creative aspects of game development.',
-  'agent.23.title': 'Create Games with a Game Developer',
+    'Create a music teacher who can explain music theory in accessible ways, help you learn an instrument, develop your ear for music, suggest practice techniques, and deepen your appreciation for different musical styles.',
+  'agent.23.title': 'Learn Music with a Patient Teacher',
   'agent.24.prompt':
-    'Create an embedded systems engineer who can help with microcontroller programming, real-time operating systems, hardware-software integration, power optimization, and debugging techniques for resource-constrained environments.',
-  'agent.24.title': 'Build Embedded Systems with an Expert',
+    'Create an art appreciation guide who can help you understand different art movements, analyze artworks, develop your visual literacy, and deepen your enjoyment of museums, galleries, and creative expression.',
+  'agent.24.title': 'Appreciate Art More Deeply',
   'agent.25.prompt':
-    'Create a natural language processing specialist who can help implement text classification, sentiment analysis, named entity recognition, question answering systems, and guide the selection and fine-tuning of language models for specific use cases.',
-  'agent.25.title': 'Process Language with an NLP Specialist',
+    'Create a pet care advisor who can provide guidance on pet health, behavior training, nutrition, enrichment activities, and help you build a stronger bond with your furry, feathered, or scaled companions.',
+  'agent.25.title': 'Care for Your Pets Better',
   'agent.26.prompt':
-    'Create a computer vision engineer who specializes in image classification, object detection, image segmentation, video analysis, and deploying vision models efficiently on edge devices or in cloud environments.',
-  'agent.26.title': 'Build Vision Systems with a CV Engineer',
+    'Create an interior design consultant who can help you plan room layouts, choose color schemes, select furniture and decor, work within your budget, and create spaces that reflect your personality and lifestyle.',
+  'agent.26.title': 'Design Your Perfect Space',
   'agent.27.prompt':
-    'Create a technical sales engineer who can help translate complex technical capabilities into business value, prepare technical demonstrations, handle technical objections, and support the sales process with deep product knowledge and customer empathy.',
-  'agent.27.title': 'Support Sales with a Technical SE',
+    'Create an entrepreneurship coach who can help you validate business ideas, develop business models, understand startup fundamentals, overcome common challenges, and take practical steps toward launching your venture.',
+  'agent.27.title': 'Launch Your Business Idea',
   'agent.28.prompt':
-    'Create a compliance and privacy expert who understands GDPR, CCPA, HIPAA, and other regulations, can help implement privacy-by-design principles, conduct privacy impact assessments, and ensure technical systems meet regulatory requirements.',
-  'agent.28.title': 'Ensure Compliance with a Privacy Expert',
+    'Create a science communicator who can explain complex scientific concepts in engaging ways, discuss the latest discoveries, separate fact from fiction, and help you develop scientific literacy and curiosity.',
+  'agent.28.title': 'Explore Science and Discovery',
+
+  // === Technical Roles (12) ===
   'agent.29.prompt':
-    'Create a technical trainer who excels at creating learning curricula, designing hands-on workshops, explaining complex topics at various skill levels, and helping teams upskill in new technologies through effective teaching methodologies.',
-  'agent.29.title': 'Train Teams with a Technical Educator',
+    'Create a senior code reviewer who specializes in identifying code smells, potential bugs, security vulnerabilities, and performance issues. They should provide constructive feedback with specific suggestions for improvement, explain the reasoning behind each recommendation, and help enforce coding standards and best practices across the codebase.',
+  'agent.29.title': 'Build a Code Review Expert',
   'agent.30.prompt':
-    'Create an open source maintainer who can help establish contribution guidelines, manage community interactions, review pull requests constructively, plan release cycles, and build sustainable open source projects that attract quality contributors.',
-  'agent.30.title': 'Maintain Open Source with an Expert',
+    'Create a frontend development mentor who is an expert in modern frameworks like React, Vue, and Angular. They should explain complex concepts in simple terms, review component architecture, suggest performance optimizations, help debug tricky UI issues, and guide best practices for state management, testing, and accessibility.',
+  'agent.30.title': 'Learn from a Frontend Mentor',
   'agent.31.prompt':
-    'Create a technical content strategist who can plan content calendars for developer audiences, optimize technical SEO, measure content effectiveness, and help establish thought leadership through strategic technical content creation.',
-  'agent.31.title': 'Plan Content with a Tech Content Strategist',
+    'Create a backend architect who specializes in designing scalable microservices architectures, implementing event-driven systems, optimizing API performance, managing distributed systems challenges, and making technology stack decisions that balance performance, maintainability, and team expertise.',
+  'agent.31.title': 'Architect Scalable Backend Systems',
   'agent.32.prompt':
-    'Create a platform engineer who specializes in building internal developer platforms, implementing self-service infrastructure, creating golden paths for development teams, and improving developer experience through better tooling and automation.',
-  'agent.32.title': 'Build Developer Platforms with an Expert',
+    'Create a database architect who can help design efficient database schemas, optimize slow queries, choose between SQL and NoSQL solutions, implement proper indexing strategies, and advise on data modeling patterns, migration strategies, and scaling approaches for different use cases.',
+  'agent.32.title': 'Consult a Database Architect',
   'agent.33.prompt':
-    'Create a technical debt analyst who can identify, categorize, and prioritize technical debt, estimate remediation costs, make business cases for debt reduction, and help teams balance feature development with codebase health.',
-  'agent.33.title': 'Manage Technical Debt Strategically',
+    'Create a DevOps engineer who specializes in building robust CI/CD pipelines, containerization with Docker and Kubernetes, infrastructure as code, cloud platform optimization (AWS/GCP/Azure), monitoring and alerting setup, and implementing security best practices throughout the deployment lifecycle.',
+  'agent.33.title': 'Work with a DevOps Engineer',
   'agent.34.prompt':
-    'Create an accessibility specialist who deeply understands WCAG guidelines, can audit interfaces for accessibility issues, recommend assistive technology compatibility improvements, and help build inclusive products that work for users of all abilities.',
-  'agent.34.title': 'Build Accessible Products with an A11y Expert',
+    'Create a product manager who can help define clear product requirements, write effective user stories with acceptance criteria, prioritize features using frameworks like RICE or MoSCoW, create product roadmaps, and facilitate communication between stakeholders, designers, and engineering teams.',
+  'agent.34.title': 'Collaborate with a Product Manager',
   'agent.35.prompt':
-    'Create a localization engineer who can help internationalize applications, manage translation workflows, handle right-to-left languages, implement locale-specific formatting, and ensure products work seamlessly across different cultures and regions.',
-  'agent.35.title': 'Localize Products with an i18n Expert',
+    'Create a UX design consultant who can evaluate user interfaces for usability issues, suggest improvements based on design principles and user psychology, help create consistent design systems, conduct heuristic evaluations, and provide guidance on accessibility, responsive design, and user research methods.',
+  'agent.35.title': 'Get UX Design Feedback',
   'agent.36.prompt':
-    'Create a technical due diligence analyst who can evaluate codebases, assess technical team capabilities, identify technical risks and opportunities, and provide comprehensive technical assessments for M&A, investment, or partnership decisions.',
-  'agent.36.title': 'Conduct Technical Due Diligence',
+    'Create a data scientist who can help with statistical analysis, data visualization, hypothesis testing, predictive modeling, and translating business questions into data-driven insights. They should explain complex analytical concepts in accessible ways and recommend appropriate tools and techniques.',
+  'agent.36.title': 'Analyze Data with a Data Scientist',
   'agent.37.prompt':
-    'Create a legacy system modernization expert who can assess legacy applications, plan incremental migration strategies, implement strangler fig patterns, and help teams modernize critical systems while maintaining business continuity.',
-  'agent.37.title': 'Modernize Legacy Systems with an Expert',
+    'Create a machine learning engineer who can help with model selection, feature engineering, training pipeline optimization, model deployment strategies, and explaining ML concepts in practical terms. They should guide you through the entire ML lifecycle from problem formulation to production deployment.',
+  'agent.37.title': 'Build ML Solutions',
   'agent.38.prompt':
-    'Create a real-time systems architect who specializes in building low-latency applications, implementing WebSocket and Server-Sent Events, designing event streaming architectures, and optimizing for real-time data processing requirements.',
-  'agent.38.title': 'Build Real-Time Systems with an Architect',
+    'Create a cloud solutions architect who can design cost-effective, highly available cloud infrastructures, implement disaster recovery strategies, optimize cloud spending, and help migrate legacy systems to modern cloud-native architectures on AWS, GCP, or Azure.',
+  'agent.38.title': 'Design Cloud Architecture',
   'agent.39.prompt':
-    'Create a developer experience (DX) engineer who can evaluate and improve API usability, create better error messages, design intuitive CLIs, streamline development workflows, and measure and improve overall developer satisfaction.',
-  'agent.39.title': 'Improve Developer Experience with a DX Engineer',
+    'Create a security analyst who can perform code security reviews, identify vulnerabilities like SQL injection, XSS, and CSRF, recommend secure authentication and authorization patterns, help implement encryption properly, and guide compliance with security standards like OWASP Top 10.',
+  'agent.39.title': 'Strengthen Security',
   'agent.40.prompt':
-    'Create a technical career coach who can help software engineers navigate career growth, prepare for technical interviews, negotiate compensation, transition between roles (IC to management or vice versa), and build personal brands in the tech industry.',
-  'agent.40.title': 'Grow Your Career with a Tech Career Coach',
+    'Create a technical project manager who can help with agile methodology implementation, sprint planning, risk management, stakeholder communication, resource allocation, and keeping complex technical projects on track while maintaining team morale and productivity.',
+  'agent.40.title': 'Manage Technical Projects',
+  // === General Interest Groups (28) ===
   'group.01.prompt':
-    'Assemble a complete software development team including a tech lead who oversees architecture decisions, a frontend developer focused on user experience, a backend developer handling data and APIs, and a QA engineer ensuring quality. Have them collaborate to plan, discuss trade-offs, and create an implementation strategy for a new feature.',
-  'group.01.title': 'Gather a Dev Team to Plan New Features Together',
+    "Form a book club discussion with diverse readers bringing different perspectives - a literary critic analyzing themes and craft, a casual reader sharing emotional reactions, a history buff providing context, and a philosophy enthusiast exploring deeper meanings. Have them discuss the book's impact and what it reveals about human nature.",
+  'group.01.title': 'Host a Thoughtful Book Club Discussion',
   'group.02.prompt':
-    'Form a code review panel with senior engineers from different specializations - a backend expert, a frontend specialist, a security engineer, and a performance optimization expert. Have them thoroughly review code from their unique perspectives and provide comprehensive feedback.',
-  'group.02.title': 'Get Multi-Perspective Code Review from Senior Engineers',
+    'Organize a friendly debate with participants taking different positions on a topic. Include a moderator ensuring fair discussion, advocates for each side presenting compelling arguments, and a neutral analyst summarizing key points. Have them engage respectfully while exploring the issue from multiple angles.',
+  'group.02.title': 'Explore Ideas Through Friendly Debate',
   'group.03.prompt':
-    'Organize a sprint planning session with a product manager defining priorities, a designer explaining user flows, and engineers estimating effort and identifying technical risks. Have them negotiate scope, break down work into manageable tasks, and commit to realistic sprint goals.',
-  'group.03.title': 'Run a Sprint Planning Session with Your Team',
+    'Create a creative writing workshop with authors at different stages - a published novelist sharing craft advice, an editor providing feedback, a poetry specialist discussing language, and aspiring writers sharing their work. Have them give constructive feedback and inspire each other.',
+  'group.03.title': 'Improve Writing in a Workshop',
   'group.04.prompt':
-    'Set up a technical architecture review with a system architect proposing the design, a security expert evaluating vulnerabilities, a performance engineer assessing scalability, and a senior developer considering implementation complexity. Have them challenge assumptions and refine the architecture.',
-  'group.04.title': 'Review System Architecture with Expert Panel',
+    'Assemble an investment discussion group with a value investor, a growth-focused analyst, a risk management expert, and a financial planner. Have them analyze investment opportunities, discuss market trends, and share different strategies while emphasizing the importance of due diligence.',
+  'group.04.title': 'Discuss Investment Strategies',
   'group.05.prompt':
-    "Create a brainstorming session with a creative product thinker generating ideas, a technical expert evaluating feasibility, a user advocate representing customer needs, and a business analyst considering market impact. Have them build on each other's ideas to develop innovative solutions.",
-  'group.05.title': 'Brainstorm New Features with a Cross-Functional Team',
+    'Form a travel planning team with an adventure seeker suggesting exciting activities, a culture enthusiast recommending authentic experiences, a budget traveler sharing money-saving tips, and a luxury travel expert suggesting premium options. Have them collaborate to create the perfect itinerary.',
+  'group.05.title': 'Plan Your Dream Trip Together',
   'group.06.prompt':
-    'Assemble a debugging task force with a backend specialist, a database expert, a DevOps engineer, and a frontend developer. Have them systematically investigate a complex bug, share findings, form hypotheses, and collaboratively narrow down the root cause.',
-  'group.06.title': 'Debug Complex Issues with a Specialist Task Force',
+    "Create a film discussion circle with a cinema historian providing context, a director's perspective on craft, a casual viewer sharing entertainment value, and a critic analyzing themes and execution. Have them discuss what makes films meaningful and memorable.",
+  'group.06.title': 'Dive Deep into Film Discussion',
   'group.07.prompt':
-    'Form an incident response team with an on-call engineer triaging the issue, an SRE analyzing system metrics, a team lead coordinating communication, and a database admin investigating data integrity. Have them work together to diagnose, mitigate, and resolve a production incident.',
-  'group.07.title': 'Handle Production Incidents with Response Team',
+    'Organize a startup brainstorming session with a creative ideator generating concepts, a market researcher validating demand, a business strategist evaluating viability, and an entrepreneur sharing real-world experience. Have them develop and refine business ideas together.',
+  'group.07.title': 'Brainstorm Business Ideas',
   'group.08.prompt':
-    'Create a mentorship circle with experienced senior developers sharing wisdom and career advice, and junior developers asking questions about technical growth, career paths, handling challenges, and developing soft skills. Facilitate meaningful knowledge exchange between generations.',
-  'group.08.title': 'Join a Developer Mentorship Circle for Career Growth',
+    'Assemble a life planning council with a career coach focusing on professional growth, a financial advisor on money matters, a wellness expert on health and balance, and a life coach on personal fulfillment. Have them help create a holistic life plan.',
+  'group.08.title': 'Design Your Life Plan',
   'group.09.prompt':
-    'Organize a tech debt review committee with a software architect identifying systemic issues, senior engineers proposing refactoring strategies, and a product manager helping prioritize based on business impact. Have them create a balanced plan for addressing technical debt without halting feature development.',
-  'group.09.title': 'Prioritize Tech Debt with Architecture Committee',
+    'Form a wellness discussion group with a fitness coach, a nutritionist, a mental health advocate, and a sleep specialist. Have them discuss holistic approaches to health, share practical tips, and address common challenges in maintaining a healthy lifestyle.',
+  'group.09.title': 'Discuss Holistic Wellness',
   'group.10.prompt':
-    'Create a startup founding team with a CEO focused on vision and strategy, a CTO evaluating technical feasibility and architecture, and a CMO planning go-to-market strategies. Have them debate and align on product direction, resource allocation, competitive positioning, and growth tactics.',
-  'group.10.title': 'Simulate a Startup Founding Team Discussion',
+    'Create a parenting roundtable with parents of different aged children, a child psychologist, an educator, and a family counselor. Have them share experiences, discuss challenges, and offer support while respecting different parenting approaches.',
+  'group.10.title': 'Share Parenting Experiences',
   'group.11.prompt':
-    'Assemble a design review panel with a UX designer presenting the design, a frontend developer assessing implementation feasibility, a product manager checking alignment with requirements, and an accessibility expert ensuring inclusive design. Have them provide constructive feedback and iterate.',
-  'group.11.title': 'Review Designs with a Cross-Functional Panel',
+    'Organize a history discussion panel with experts from different eras and regions - an ancient history specialist, a modern historian, a cultural anthropologist, and a political scientist. Have them analyze historical events and their relevance to today.',
+  'group.11.title': 'Explore History Together',
   'group.12.prompt':
-    'Form an API design committee with a backend architect, a frontend consumer representative, a technical writer, and a developer experience advocate. Have them collaboratively design APIs that are intuitive, consistent, well-documented, and pleasant to use.',
-  'group.12.title': 'Design Developer-Friendly APIs Together',
+    "Form a philosophy salon with thinkers from different traditions - an Eastern philosophy expert, a Western philosophy scholar, an ethics specialist, and an existentialist. Have them explore life's big questions through diverse philosophical lenses.",
+  'group.12.title': 'Ponder Philosophy in a Salon',
   'group.13.prompt':
-    'Create a security review board with a security engineer, a compliance officer, a backend developer, and a DevOps engineer. Have them assess a system for security vulnerabilities, compliance gaps, and operational risks, then prioritize remediation efforts.',
-  'group.13.title': 'Conduct Security Reviews with Expert Board',
+    'Assemble an art appreciation group with an art historian, a practicing artist, a museum curator, and an art collector. Have them discuss artworks, movements, and what makes art meaningful across different cultures and time periods.',
+  'group.13.title': 'Appreciate Art Together',
   'group.14.prompt':
-    'Organize a retrospective facilitation with a scrum master guiding the discussion, team members sharing successes and challenges, a tech lead identifying process improvements, and a product owner providing business context. Have them develop actionable improvements.',
-  'group.14.title': 'Run Effective Retrospectives with Your Team',
+    'Create a food exploration club with a professional chef, a food critic, a home cook, and a food historian. Have them discuss cuisines, share recipes, explore cooking techniques, and celebrate the cultural stories behind dishes.',
+  'group.14.title': 'Explore World Cuisines',
   'group.15.prompt':
-    'Assemble a performance optimization team with a performance engineer profiling the system, a database specialist optimizing queries, a frontend expert reducing load times, and a DevOps engineer improving infrastructure. Have them collaborate on a comprehensive optimization plan.',
-  'group.15.title': 'Optimize System Performance as a Team',
+    'Form a language exchange group with native speakers of different languages, a linguist explaining language structures, and language learners at various levels. Have them practice conversation, share learning tips, and explore cultural nuances.',
+  'group.15.title': 'Practice Languages Together',
   'group.16.prompt':
-    'Form a data modeling workshop with a data architect, a backend developer, a data analyst, and a business stakeholder. Have them collaboratively design a data model that balances technical efficiency with business reporting needs and future flexibility.',
-  'group.16.title': 'Design Data Models with Stakeholders',
+    'Organize a career transition support group with a career coach, someone who successfully changed careers, an HR professional, and a skills development expert. Have them discuss strategies, share experiences, and provide encouragement for career changers.',
+  'group.16.title': 'Navigate Career Transitions',
   'group.17.prompt':
-    'Create a migration planning committee with a legacy system expert, a cloud architect, a project manager, and a QA lead. Have them plan a complex system migration with risk mitigation, rollback strategies, and minimal business disruption.',
-  'group.17.title': 'Plan System Migrations with Expert Committee',
+    'Create a relationship advice circle with a couples therapist, a communication expert, a long-married couple sharing wisdom, and a single person offering fresh perspective. Have them discuss healthy relationship dynamics and communication strategies.',
+  'group.17.title': 'Discuss Relationship Dynamics',
   'group.18.prompt':
-    'Organize a developer experience review with a platform engineer, a developer advocate, frontend and backend developers, and a documentation specialist. Have them identify pain points in the development workflow and propose improvements.',
-  'group.18.title': 'Improve Developer Experience Together',
+    'Assemble a personal finance workshop with a budgeting expert, an investment advisor, a debt counselor, and someone who achieved financial independence. Have them share practical strategies for building wealth and financial security.',
+  'group.18.title': 'Master Personal Finance',
   'group.19.prompt':
-    'Assemble a product launch team with a product manager, a marketing lead, a customer success manager, and an engineering lead. Have them coordinate launch activities, prepare for potential issues, and ensure a smooth product release.',
-  'group.19.title': 'Coordinate Product Launches with Cross-Team',
+    'Form a mental wellness support circle with a therapist, a mindfulness practitioner, a life coach, and someone sharing their mental health journey. Have them discuss coping strategies, self-care practices, and reducing stigma around mental health.',
+  'group.19.title': 'Support Mental Wellness Together',
   'group.20.prompt':
-    'Form a hiring committee with a hiring manager, senior engineers, an HR representative, and a team culture advocate. Have them align on candidate requirements, design interview processes, and evaluate candidates holistically.',
-  'group.20.title': 'Build Better Hiring Processes Together',
+    'Create a creative marketing team with a brand strategist, a content creator, a social media expert, and a consumer psychologist. Have them develop compelling marketing campaigns and discuss what makes messaging resonate with audiences.',
+  'group.20.title': 'Craft Creative Marketing Campaigns',
   'group.21.prompt':
-    'Create a cost optimization task force with a cloud architect, a finance analyst, a DevOps engineer, and an engineering manager. Have them identify cost reduction opportunities while maintaining system performance and reliability.',
-  'group.21.title': 'Reduce Cloud Costs with Expert Task Force',
+    'Organize a brand building workshop with a branding expert, a visual designer, a storytelling specialist, and a successful entrepreneur. Have them help develop a compelling brand identity, messaging, and strategy.',
+  'group.21.title': 'Build Your Brand Identity',
   'group.22.prompt':
-    'Organize a compliance assessment team with a compliance officer, a security engineer, a legal advisor, and a technical architect. Have them evaluate systems against regulatory requirements and develop compliance roadmaps.',
-  'group.22.title': 'Assess Compliance with Cross-Functional Team',
+    'Form a current events discussion panel with a journalist, a political analyst, an economist, and a social commentator. Have them analyze news stories from multiple perspectives, separate fact from opinion, and explore implications.',
+  'group.22.title': 'Analyze Current Events',
   'group.23.prompt':
-    'Assemble an innovation lab with a product visionary, a prototype engineer, a market researcher, and a design thinker. Have them explore emerging technologies, validate new ideas quickly, and propose innovative product directions.',
-  'group.23.title': 'Explore Innovation with a Lab Team',
+    'Create a science exploration team with scientists from different fields - a physicist, a biologist, an environmental scientist, and a science communicator. Have them explain complex topics, discuss recent discoveries, and explore the wonders of science.',
+  'group.23.title': 'Explore Science Together',
   'group.24.prompt':
-    'Form a knowledge transfer session with departing team members sharing context, documentation specialists capturing knowledge, and remaining team members asking clarifying questions. Ensure critical knowledge is preserved and accessible.',
-  'group.24.title': 'Preserve Knowledge Through Transfer Sessions',
+    'Assemble a cultural exchange group with people from different cultural backgrounds, an anthropologist, and a travel writer. Have them share traditions, discuss cultural differences respectfully, and find common human experiences.',
+  'group.24.title': 'Celebrate Cultural Diversity',
   'group.25.prompt':
-    'Create a customer feedback review panel with a product manager, a UX researcher, a customer success manager, and engineering representatives. Have them synthesize customer feedback, identify patterns, and prioritize improvements.',
-  'group.25.title': 'Review Customer Feedback as a Team',
+    'Form a personal development mastermind with a productivity expert, a habits coach, a motivation specialist, and successful individuals sharing their journeys. Have them discuss strategies for growth, accountability, and achieving goals.',
+  'group.25.title': 'Grow Through a Mastermind Group',
   'group.26.prompt':
-    'Organize a testing strategy workshop with a QA lead, developers, a DevOps engineer, and a product manager. Have them design a comprehensive testing strategy covering unit, integration, e2e, and performance testing.',
-  'group.26.title': 'Design Testing Strategy with Your Team',
+    'Create a podcast or content planning team with a content strategist, a storytelling expert, a technical producer, and a successful content creator. Have them brainstorm ideas, plan content series, and discuss what makes content engaging.',
+  'group.26.title': 'Plan Engaging Content',
   'group.27.prompt':
-    'Assemble a documentation review team with a technical writer, subject matter experts, a developer advocate, and end users. Have them review and improve documentation for clarity, accuracy, and usefulness.',
-  'group.27.title': 'Improve Documentation with Review Team',
+    "Organize a writing feedback circle with writers of different genres, an editor providing technical feedback, and readers sharing audience perspective. Have them workshop pieces, give constructive criticism, and support each other's creative growth.",
+  'group.27.title': 'Get Feedback on Your Writing',
   'group.28.prompt':
-    'Form an on-call rotation planning session with an SRE lead, team members, a manager balancing workloads, and an HR representative ensuring fair practices. Design sustainable on-call schedules that maintain system reliability without burnout.',
-  'group.28.title': 'Plan Sustainable On-Call Rotations',
+    'Form a music appreciation group with a music historian, a musician, a producer, and an enthusiastic listener. Have them explore different genres, discuss what makes music powerful, and share discoveries from various eras and cultures.',
+  'group.28.title': 'Discover Music Together',
+
+  // === Technical Groups (12) ===
   'group.29.prompt':
-    'Create a technology evaluation committee with a technical architect, developers who will use the technology, a security reviewer, and a manager considering total cost of ownership. Have them evaluate new tools or frameworks systematically.',
-  'group.29.title': 'Evaluate New Technologies as a Committee',
+    'Assemble a complete software development team including a tech lead who oversees architecture decisions, a frontend developer focused on user experience, a backend developer handling data and APIs, and a QA engineer ensuring quality. Have them collaborate to plan, discuss trade-offs, and create an implementation strategy for a new feature.',
+  'group.29.title': 'Gather a Dev Team to Plan Features',
   'group.30.prompt':
-    'Organize a post-mortem facilitation with incident responders, affected team members, a blameless facilitator, and leadership observers. Have them analyze what happened, identify improvements, and commit to action items without blame.',
-  'group.30.title': 'Conduct Blameless Post-Mortems',
+    'Form a code review panel with senior engineers from different specializations - a backend expert, a frontend specialist, a security engineer, and a performance optimization expert. Have them thoroughly review code from their unique perspectives and provide comprehensive feedback.',
+  'group.30.title': 'Get Multi-Perspective Code Review',
   'group.31.prompt':
-    'Assemble an accessibility audit team with an accessibility specialist, frontend developers, a UX designer, and users with disabilities. Have them audit products for accessibility issues and prioritize fixes that improve inclusion.',
-  'group.31.title': 'Audit Accessibility with Diverse Team',
+    'Set up a technical architecture review with a system architect proposing the design, a security expert evaluating vulnerabilities, a performance engineer assessing scalability, and a senior developer considering implementation complexity. Have them challenge assumptions and refine the architecture.',
+  'group.31.title': 'Review System Architecture',
   'group.32.prompt':
-    'Form a capacity planning session with an engineering manager, a finance representative, a technical architect, and team leads. Have them forecast growth, plan hiring, and ensure infrastructure and team capacity align with business goals.',
-  'group.32.title': 'Plan Team Capacity with Leadership',
+    'Create a startup founding team with a CEO focused on vision and strategy, a CTO evaluating technical feasibility and architecture, and a CMO planning go-to-market strategies. Have them debate and align on product direction, resource allocation, competitive positioning, and growth tactics.',
+  'group.32.title': 'Simulate a Startup Team Discussion',
   'group.33.prompt':
-    'Create an open source contribution review with maintainers, community contributors, a documentation reviewer, and a release manager. Have them review contributions, provide feedback, and plan releases collaboratively.',
-  'group.33.title': 'Manage Open Source Contributions Together',
+    'Form a hiring committee with a hiring manager, senior engineers, an HR representative, and a team culture advocate. Have them align on candidate requirements, design interview processes, and evaluate candidates holistically.',
+  'group.33.title': 'Build Better Hiring Processes',
   'group.34.prompt':
-    'Organize a vendor evaluation panel with a procurement specialist, technical evaluators, a security reviewer, and business stakeholders. Have them assess vendors against requirements, negotiate terms, and make informed decisions.',
-  'group.34.title': 'Evaluate Vendors with Expert Panel',
+    'Assemble an innovation lab with a product visionary, a prototype engineer, a market researcher, and a design thinker. Have them explore emerging technologies, validate new ideas quickly, and propose innovative product directions.',
+  'group.34.title': 'Explore Innovation Together',
   'group.35.prompt':
-    'Assemble a disaster recovery planning team with an SRE, a database administrator, a security expert, and a business continuity manager. Have them design and validate disaster recovery procedures that minimize downtime and data loss.',
-  'group.35.title': 'Plan Disaster Recovery with Expert Team',
+    'Create a customer feedback review panel with a product manager, a UX researcher, a customer success manager, and engineering representatives. Have them synthesize customer feedback, identify patterns, and prioritize improvements.',
+  'group.35.title': 'Review Customer Feedback',
   'group.36.prompt':
-    'Form a metrics and KPI workshop with a product manager, a data analyst, an engineering lead, and business stakeholders. Have them define meaningful metrics, establish baselines, and create dashboards that drive good decisions.',
-  'group.36.title': 'Define Metrics and KPIs Together',
+    'Assemble a product launch team with a product manager, a marketing lead, a customer success manager, and an engineering lead. Have them coordinate launch activities, prepare for potential issues, and ensure a smooth product release.',
+  'group.36.title': 'Coordinate Product Launches',
   'group.37.prompt':
-    'Create a code standards committee with senior developers from different teams, a technical writer, and an engineering manager. Have them establish coding standards, review guidelines, and processes that improve code consistency.',
-  'group.37.title': 'Establish Code Standards with Committee',
+    'Organize a technology evaluation committee with a technical architect, developers who will use the technology, a security reviewer, and a manager considering total cost of ownership. Have them evaluate new tools or frameworks systematically.',
+  'group.37.title': 'Evaluate New Technologies',
   'group.38.prompt':
-    'Organize a feature flag review with a product manager, developers, a QA engineer, and a release manager. Have them establish feature flag practices, review existing flags, and plan flag lifecycle management.',
-  'group.38.title': 'Manage Feature Flags as a Team',
+    'Create a security review board with a security engineer, a compliance officer, a backend developer, and a DevOps engineer. Have them assess a system for security vulnerabilities, compliance gaps, and operational risks, then prioritize remediation efforts.',
+  'group.38.title': 'Conduct Security Reviews',
   'group.39.prompt':
-    'Assemble a technical interview design team with hiring managers, senior engineers, an HR representative, and a diversity advocate. Have them design fair, effective technical interviews that assess skills while providing good candidate experience.',
-  'group.39.title': 'Design Better Technical Interviews',
+    'Form a metrics and KPI workshop with a product manager, a data analyst, an engineering lead, and business stakeholders. Have them define meaningful metrics, establish baselines, and create dashboards that drive good decisions.',
+  'group.39.title': 'Define Metrics and KPIs',
   'group.40.prompt':
-    'Form a platform roadmap planning session with platform engineers, developer customers, a product manager, and leadership. Have them prioritize platform investments that maximize developer productivity and business value.',
-  'group.40.title': 'Plan Platform Roadmap with Stakeholders',
+    'Assemble a design review panel with a UX designer presenting the design, a frontend developer assessing implementation feasibility, a product manager checking alignment with requirements, and an accessibility expert ensuring inclusive design. Have them provide constructive feedback and iterate.',
+  'group.40.title': 'Review Designs Together',
   'title': 'Try These Examples',
   // === Creative Writing (8) ===
   'write.01.prompt':
