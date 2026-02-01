@@ -245,7 +245,6 @@ export default {
   'group.40.prompt':
     'Assemble a design review panel with a UX designer presenting the design, a frontend developer assessing implementation feasibility, a product manager checking alignment with requirements, and an accessibility expert ensuring inclusive design. Have them provide constructive feedback and iterate.',
   'group.40.title': 'Review my design from multiple perspectives',
-  'title': 'Try These Examples',
   // === Creative Writing (8) ===
   'write.01.prompt':
     'Write a captivating short story with compelling characters, an engaging plot, and a satisfying ending. Include vivid descriptions that bring scenes to life, natural dialogue that reveals character personalities, rising tension that keeps readers hooked, and a meaningful theme or message woven throughout the narrative.',

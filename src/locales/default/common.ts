@@ -327,6 +327,7 @@ export default {
   'geminiImageChineseWarning.doNotShowAgain': 'Do Not Show Again',
   'geminiImageChineseWarning.title': 'Chinese Input Notice',
   'historyRange': 'History Range',
+  'home.suggestQuestions': 'Try these examples',
   'import': 'Import',
   'importData': 'Import Data',
   'importModal.error.desc':
