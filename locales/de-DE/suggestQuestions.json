@@ -64,5 +64,19 @@
   "agent.32.prompt": "Erstelle einen Datenbankarchitekten, der effiziente Datenbankschemata entwirft, langsame Abfragen optimiert, zwischen SQL- und NoSQL-Lösungen abwägt, Indexierungsstrategien implementiert und bei Datenmodellierung, Migration und Skalierung berät.",
   "agent.32.title": "Hilf mir beim Datenbankdesign",
   "agent.33.prompt": "Erstelle einen DevOps-Ingenieur, der robuste CI/CD-Pipelines aufbaut, Containerisierung mit Docker und Kubernetes umsetzt, Infrastruktur als Code verwaltet, Cloud-Plattformen (AWS/GCP/Azure) optimiert, Monitoring einrichtet und Sicherheitsstandards im Deployment-Lifecycle implementiert.",
-  "agent.33.title": "Hilf mir, meine DevOps-Pipeline aufzusetzen"
+  "agent.33.title": "Hilf mir, meine DevOps-Pipeline aufzusetzen",
+  "agent.34.prompt": "Erstelle einen Produktmanager, der dabei hilft, klare Produktanforderungen zu definieren, effektive User Stories mit Akzeptanzkriterien zu schreiben, Funktionen mithilfe von Frameworks wie RICE oder MoSCoW zu priorisieren, Produkt-Roadmaps zu erstellen und die Kommunikation zwischen Stakeholdern, Designern und Entwicklungsteams zu fördern.",
+  "agent.34.title": "Hilf mir, Produktanforderungen zu definieren",
+  "agent.35.prompt": "Erstelle einen UX-Designberater, der Benutzeroberflächen auf Usability-Probleme überprüft, Verbesserungen basierend auf Designprinzipien und Nutzerpsychologie vorschlägt, beim Aufbau konsistenter Designsysteme unterstützt, heuristische Evaluationen durchführt und Beratung zu Barrierefreiheit, responsivem Design und Methoden der Nutzerforschung bietet.",
+  "agent.35.title": "Überprüfe und verbessere mein UX-Design",
+  "agent.36.prompt": "Erstelle einen Data Scientist, der bei statistischer Analyse, Datenvisualisierung, Hypothesentests, prädiktiver Modellierung und der Übersetzung von Geschäftsfragen in datengestützte Erkenntnisse hilft. Er sollte komplexe analytische Konzepte verständlich erklären und geeignete Tools und Techniken empfehlen.",
+  "agent.36.title": "Hilf mir, meine Daten zu analysieren und zu visualisieren",
+  "agent.37.prompt": "Erstelle einen Machine Learning Engineer, der bei der Modellauswahl, Feature Engineering, Optimierung von Trainingspipelines, Strategien zur Modellbereitstellung und der praxisnahen Erklärung von ML-Konzepten unterstützt. Er sollte durch den gesamten ML-Lebenszyklus führen – von der Problemformulierung bis zur Produktivsetzung.",
+  "agent.37.title": "Hilf mir, Machine-Learning-Lösungen zu entwickeln",
+  "agent.38.prompt": "Erstelle einen Cloud Solutions Architect, der kosteneffiziente, hochverfügbare Cloud-Infrastrukturen entwirft, Strategien zur Notfallwiederherstellung implementiert, Cloud-Ausgaben optimiert und bei der Migration von Altsystemen zu modernen Cloud-nativen Architekturen auf AWS, GCP oder Azure unterstützt.",
+  "agent.38.title": "Hilf mir, meine Cloud-Infrastruktur zu entwerfen",
+  "agent.39.prompt": "Erstelle einen Security Analyst, der Code-Sicherheitsüberprüfungen durchführt, Schwachstellen wie SQL-Injection, XSS und CSRF identifiziert, sichere Authentifizierungs- und Autorisierungsmuster empfiehlt, bei der korrekten Implementierung von Verschlüsselung hilft und bei der Einhaltung von Sicherheitsstandards wie OWASP Top 10 berät.",
+  "agent.39.title": "Hilf mir, die Sicherheit meiner Anwendung zu überprüfen",
+  "agent.40.prompt": "Erstelle einen technischen Projektmanager, der bei der Umsetzung agiler Methoden, Sprint-Planung, Risikomanagement, Stakeholder-Kommunikation, Ressourcenverteilung und der erfolgreichen Durchführung komplexer technischer Projekte unterstützt – dabei stets das Teamklima und die Produktivität im Blick behält.",
+  "agent.40.title": "Hilf mir, mein technisches Projekt zu managen"
 }

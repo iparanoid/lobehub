@@ -64,5 +64,19 @@
   "agent.32.prompt": "Crea un arquitecto de bases de datos que te ayude a diseñar esquemas eficientes, optimizar consultas lentas, elegir entre soluciones SQL y NoSQL, implementar estrategias de indexación adecuadas y asesorar sobre patrones de modelado de datos, estrategias de migración y escalabilidad según el caso de uso.",
   "agent.32.title": "Ayúdame con el diseño de bases de datos",
   "agent.33.prompt": "Crea un ingeniero DevOps especializado en construir pipelines CI/CD robustos, contenerización con Docker y Kubernetes, infraestructura como código, optimización de plataformas en la nube (AWS/GCP/Azure), configuración de monitoreo y alertas, e implementación de buenas prácticas de seguridad en todo el ciclo de despliegue.",
-  "agent.33.title": "Ayúdame a configurar mi pipeline DevOps"
+  "agent.33.title": "Ayúdame a configurar mi pipeline DevOps",
+  "agent.34.prompt": "Crea un gestor de producto que pueda ayudar a definir requisitos claros, redactar historias de usuario efectivas con criterios de aceptación, priorizar funcionalidades usando marcos como RICE o MoSCoW, crear hojas de ruta de producto y facilitar la comunicación entre partes interesadas, diseñadores y equipos de ingeniería.",
+  "agent.34.title": "Ayúdame a definir requisitos de producto",
+  "agent.35.prompt": "Crea un consultor de diseño UX que pueda evaluar interfaces de usuario en busca de problemas de usabilidad, sugerir mejoras basadas en principios de diseño y psicología del usuario, ayudar a crear sistemas de diseño consistentes, realizar evaluaciones heurísticas y brindar orientación sobre accesibilidad, diseño responsivo y métodos de investigación de usuarios.",
+  "agent.35.title": "Revisa y mejora mi diseño UX",
+  "agent.36.prompt": "Crea un científico de datos que pueda ayudar con análisis estadístico, visualización de datos, pruebas de hipótesis, modelado predictivo y traducir preguntas de negocio en ideas basadas en datos. Debe explicar conceptos analíticos complejos de forma accesible y recomendar herramientas y técnicas adecuadas.",
+  "agent.36.title": "Ayúdame a analizar y visualizar mis datos",
+  "agent.37.prompt": "Crea un ingeniero de aprendizaje automático que pueda ayudar con la selección de modelos, ingeniería de características, optimización del pipeline de entrenamiento, estrategias de despliegue de modelos y explicar conceptos de ML en términos prácticos. Debe guiarte a lo largo de todo el ciclo de vida del ML, desde la formulación del problema hasta el despliegue en producción.",
+  "agent.37.title": "Ayúdame a construir soluciones de machine learning",
+  "agent.38.prompt": "Crea un arquitecto de soluciones en la nube que pueda diseñar infraestructuras en la nube rentables y altamente disponibles, implementar estrategias de recuperación ante desastres, optimizar el gasto en la nube y ayudar a migrar sistemas heredados a arquitecturas modernas nativas de la nube en AWS, GCP o Azure.",
+  "agent.38.title": "Ayúdame a diseñar mi infraestructura en la nube",
+  "agent.39.prompt": "Crea un analista de seguridad que pueda realizar revisiones de seguridad de código, identificar vulnerabilidades como inyección SQL, XSS y CSRF, recomendar patrones seguros de autenticación y autorización, ayudar a implementar cifrado correctamente y guiar el cumplimiento de estándares de seguridad como OWASP Top 10.",
+  "agent.39.title": "Ayúdame a revisar la seguridad de mi aplicación",
+  "agent.40.prompt": "Crea un gestor de proyectos técnicos que pueda ayudar con la implementación de metodologías ágiles, planificación de sprints, gestión de riesgos, comunicación con partes interesadas, asignación de recursos y mantener proyectos técnicos complejos en marcha mientras se preserva la moral y productividad del equipo.",
+  "agent.40.title": "Ayúdame a gestionar mi proyecto técnico"
 }
